@@ -1,0 +1,218 @@
+header {
+    width: 100px;
+    display: flex;
+
+    >.asli {
+        >div {
+            height: 100%;
+
+            >ul {
+                list-style: none;
+
+                >li {
+                    color: rgb(201, 200, 199);
+
+                    &:hover {
+                        color: rgb(0, 0, 0);
+                    }
+                }
+            }
+
+            border: 1px solid rgb(0, 0, 0);
+            border-left: 0;
+            border-bottom: 0;
+            border-top: 0;
+            display: flex;
+            /* padding-right: 50px; */
+
+        }
+    }
+
+    .menu-ham {
+        width: 60%;
+        background-color: white;
+        transition: 1s;
+        overflow: hidden;
+        transform: translateX(-1000px);
+        position: absolute;
+        top: 100px;
+        z-index: 3;
+        left: 0;
+
+        >li {
+            list-style: none;
+
+            >a {
+                text-decoration: none;
+                padding: 20px;
+                border-bottom: 1px solid gray;
+                display: block;
+
+                &:hover {
+                    background-color: rgb(0, 0, 0);
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        >.asli {
+            display: none;
+        }
+
+        >.res {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+
+            >div {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid rgb(0, 0, 0);
+                border-left: 0;
+                border-bottom: 0;
+                border-top: 0;
+            }
+        }
+
+        i {
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .kil {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        >.res {
+            display: none;
+        }
+
+        .asli {
+            display: flex;
+        }
+
+        .kil {
+            font-size: 13px;
+        }
+    }
+}
+
+.sec1 {
+    position: relative;
+    z-index: 1;
+
+}
+
+@media screen and (min-width: 992px) {
+    .ser {
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .sera {
+        margin-top: 120px;
+    }
+
+    .setin {
+        button {
+            padding-top: 0;
+        }
+    }
+}
+
+main {
+    font-family: "Comic Relief", system-ui;
+}
+
+@media screen and (max-width: 576px) {
+    .sera {
+        margin-top: 200px;
+    }
+
+}
+
+.swiper {
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sliderha {
+    /* margin-top: 220px; */
+}
+
+.aks {
+    display: flex;
+    justify-content: center;
+}
+
+.slider1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .sec9 {
+        height: 100vh;
+    }
+}
+
+.uela {
+    list-style: none;
+    color: lightgoldenrodyellow;
+
+    &:hover {
+        color: #dc3536;
+    }
+}
+
+.hoor {
+    &:hover {
+        i {
+            color: #dc3536;
+        }
+
+    }
+
+    i {
+        color: white;
+
+    }
+}
