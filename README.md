@@ -1,13 +1,13 @@
 # Xtra-Car-Auto-Parts
-![viewfinal](https://github.com/user-attachments/assets/6f11ca04-787a-47e9-8059-b7233a26ca76)
+![viewfinal](https://github.com/user-attachments/assets/58d0e39f-20ba-4622-a2da-2ec783b04692)
 
-- [Demo Project](https://mrabbasiweb.github.io/avada-builder-demo/)
+- [Demo Project](https://mrabbasiweb.github.io/Xtra-Car-Auto-Parts/)
 
 - Developed by MohammadReza Abbasi
 
-- Created - 2025-2-17
+- Created - 2025-05-02
 
-- Technologies Used - Html , css , Bootstrap 
+- Technologies Used - Html , css , Bootstrap and javascript
 
 - Role - Frontend
 
