@@ -1,8 +1,7 @@
-// select element 
-const iconList = document.querySelector('.nema') // icon |||
+
+const iconList = document.querySelector('.nema')
 const iconX = document.querySelector('.hide')
 const menuHam = document.querySelector('.menu-ham')
-// select element 
 
 
 iconList.addEventListener('click', () => {
